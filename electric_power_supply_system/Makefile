@@ -1,0 +1,1 @@
+project: logWrite.c powerSupplyInfoAccess.c elePowerCtrl.c connectMng.c eleEquip.c; gcc -o logWrite logWrite.c;gcc -o powerSupplyInfoAccess powerSupplyInfoAccess.c;gcc -o elePowerCtrl elePowerCtrl.c;gcc -Wall -fno-stack-protector connectMng.c -o connectMng;gcc -o eleEquip eleEquip.c;
